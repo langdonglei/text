@@ -25,7 +25,7 @@ class Text
                 if ($pad_str) {
                     echo '<div>' . str_pad($str, $pad_len, $pad_str) . '</div>';
                 } else {
-                    echo "<div>$str</div>>";
+                    echo "<div>$str</div>";
                 }
             }
         }
